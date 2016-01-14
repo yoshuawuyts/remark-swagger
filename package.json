@@ -1,0 +1,35 @@
+{
+  "name": "remark-swagger",
+  "version": "1.0.0",
+  "description": "Insert a swagger specification into a markdown file",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/remark-swagger",
+  "keywords": [
+    "swagger",
+    "markdown",
+    "insert",
+    "join",
+    "remark"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "unist-builder": "^1.0.0",
+    "yamljs": "^0.2.4"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.5.1",
+    "istanbul": "^0.4.1",
+    "remark": "^3.0.1",
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
+  },
+  "files": [
+    "index.js",
+    "bin/*"
+  ]
+}
