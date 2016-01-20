@@ -1,6 +1,6 @@
 {
   "name": "remark-swagger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Insert a swagger specification into a markdown file",
   "main": "index.js",
   "scripts": {
