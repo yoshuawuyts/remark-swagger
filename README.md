@@ -15,64 +15,6 @@ $ npm install remark-swagger
     <td><b>path</b></td>
     <td><b>method</b></td>
     <td><b>summary</b></td>
-    <td><b>parameters</b></td>
-  </tr>
-  <tr>
-    <td>/foo/bar</td>
-    <td>GET</td>
-    <td>get all bars in the area</td>
-    <td><pre>
-      Pet {
-        id (integer, optional),
-        category (Category, optional),
-        name (string),
-        photoUrls (Array[string]),
-        tags (Array[Tag], optional),
-        status (string),
-        Enum: "available", "pending", "sold"
-      }
-      Category {
-        id (integer, optional),
-        name (string, optional)
-      }
-      Tag {
-        id (integer, optional),
-        name (string, optional)
-      }
-    </pre></td>
-  </tr>
-  <tr>
-    <td>/bin/baz</td>
-    <td>PUT</td>
-    <td>add a new baz to the region</td>
-    <td><pre>
-      Pet {
-        id (integer, optional),
-        category (Category, optional),
-        name (string),
-        photoUrls (Array[string]),
-        tags (Array[Tag], optional),
-        status (string),
-        Enum: "available", "pending", "sold"
-      }
-      Category {
-        id (integer, optional),
-        name (string, optional)
-      }
-      Tag {
-        id (integer, optional),
-        name (string, optional)
-      }
-    </pre></td>
-  </tr>
-</table>
-
-## Example output 2
-<table>
-  <tr>
-    <td><b>path</b></td>
-    <td><b>method</b></td>
-    <td><b>summary</b></td>
   </tr>
   <tr>
     <td>/foo/bar</td>
