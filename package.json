@@ -18,6 +18,13 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "cliclopts": "^1.1.1",
+    "concat-stream": "^1.5.1",
+    "from2-string": "^1.1.0",
+    "minimist": "^1.2.0",
+    "pump": "^1.0.1",
+    "remark": "^3.2.2",
+    "stdout-stream": "^1.4.0",
     "unist-builder": "^1.0.0",
     "yamljs": "^0.2.4"
   },
@@ -31,5 +38,8 @@
   "files": [
     "index.js",
     "bin/*"
-  ]
+  ],
+  "bin": {
+    "remark-swagger": "./bin/cli.js"
+  }
 }
