@@ -44,6 +44,26 @@ const res = remark()
 process.stdout.write(res, '\n')
 ```
 
+## CLI
+```txt
+Usage: remark-swagger [options] <markdown> [swagger]
+
+Options:
+  -h, --help        Output usage information
+  -v, --version     Output version number
+  -y, --yaml        Use swagger YAML instead of JSON
+  -p, --position    Heading position, defaults to 4
+  -t, --title       Heading title, defaults to API
+  -w, --write       Persist changes to markdown file
+
+Examples:
+  $ remark-swagger README.md swagger.json    # Inject swagger into markdown
+  $ remark-swagger README.md < swagger.json  # Inject swagger into markdown
+
+Docs: https://github.com/yoshuawuyts/remark-swagger
+Bugs: https://github.com/yoshuawuyts/remark-swagger/issues
+```
+
 ## API
 ### remarkSwagger
 
